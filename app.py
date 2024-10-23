@@ -5,7 +5,7 @@ import time
 # Page config
 st.set_page_config(
     page_title="Wonderbot - Your Cement Expert",
-    page_icon="/Users/danishkhan/Documents/PROJECTS/PROJECTS_WIP/STREAMLIT/phi_apps/wonder_bot/assets/wonder_cement_logo1.png",
+    page_icon="https://www.wondercement.com/images/header/new_logo.png",
     layout="centered"
 )
 
@@ -109,7 +109,7 @@ if prompt := st.chat_input("How can I help with your construction needs today?")
 
 # Add a sidebar with company info
 with st.sidebar:
-    st.image("/Users/danishkhan/Documents/PROJECTS/PROJECTS_WIP/STREAMLIT/phi_apps/wonder_bot/wonder_cement_logo.png",
+    st.image("https://www.wondercement.com/images/header/new_logo.png",
              use_column_width=True)
     
     st.markdown("""
